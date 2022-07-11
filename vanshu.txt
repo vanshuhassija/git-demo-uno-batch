@@ -1,0 +1,17 @@
+I am Vanshu and I am a Software Engineer.
+
+How To Push?
+
+1. Commit Your Code.
+git commit  -am "Messages"
+
+
+a.txt
+b.txt
+c.txt
+d.txt
+
+When you want to commit all the files use -am 
+a means all
+
+When you do not want to commit all the files use -m 
