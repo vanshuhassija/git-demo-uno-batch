@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <title>Document</title>
+  </head>
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0%;
+      padding: 0%;
+      color: white;
+    }
+    .main-content {
+      display: grid;
+      grid-template-columns: auto auto;
+      padding: 20px;
+    }
+    .left-section {
+      width: 300px;
+      background-color: rgb(63, 17, 17);
+      height: 600px;
+    }
+    .profile {
+      width: 80%;
+      border-bottom: 2px solid white;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 10px;
+    }
+    .profile img {
+      width: 50%;
+      height: 50%;
+      border-radius: 20%;
+    }
+    .right-section {
+      width: 700px;
+      background-color: blue;
+      height: 600px;
+      display: flex;
+      flex-wrap: wrap;
+    }
+    .about {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+    }
+    .about span {
+      width: 1200px;
+    }
+  </style>
+  <body>
+    <main class="main-content">
+      <section class="left-section">
+        <div class="profile">
+          <img src="./IMG-20220214-WA0001.jpg" alt="img" />
+          <div class="name">
+            <span>Md Tausif</span>
+            <span>SDE-1</span>
+          </div>
+        </div>
+        <div class="about">
+          <span> MERN Stack Devloper | Full Stack Devloper | Web Devloper</span>
+        </div>
+        <style>
+          .social-link {
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+            flex-direction: column;
+            flex-wrap: wrap;
+            
+          }
+          .icon {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            margin: 10px;
+          }
+          .icon a {
+            width: 200px;
+          }
+        </style>
+        <div class="social-link">
+          <h2>Social icons</h2>
+          <div class="icon">
+            <a href="#" class="fa fa-twitter"> <i>twitter</i></a>
+            <a href="#" class="fa fa-google"><i>google</i></a>
+            <a href="#" class="fa fa-linkedin"><i>linkedin</i></a>
+            <a href="#" class="fa fa-youtube"><i>youtube</i></a>
+            <a href="#" class="fa fa-github"><i>github</i></a>
+          </div>
+          <div class="skill">
+            <h1>Skills</h1>
+            <div>
+              <li>java</li>
+              <li>html</li>
+              <li>css</li>
+              <li>JavaScript</li>
+              <li>React</li>
+              <li>Nodejs</li>
+            </div>
+          </div>
+          <div class="language">
+            <h1>Language</h1>
+            <a href="#">hindi</a>
+            <a href="#">english</a>
+            <a href="#">urdu</a>
+            <a href="#">bangla</a>
+          </div>
+        </div>
+      </section>
+      <style>
+        .right-section {
+          display: flex;
+          flex-wrap: wrap;
+        }
+        .box {
+          background-color: beige;
+        }
+      </style>
+      <section class="right-section">
+        <div class="about-me">
+          <h2>Abount me</h2>
+          <p>
+            I'm Md Tausif and I'm a Full Stack Web Developer In 2020 I have
+            completed my graduation with B.Sc and decided to shape my career
+            with coding skills. Now I am a MERN Stack Developer having strong
+            knowledge of JavaScript and React. I love to convert ideas into
+            reality with my coding skills. I am an excellent team player with
+            great interpersonal skills. I want to associate with a reputed
+            organization and looking to use and enhance my skills..
+          </p>
+        </div>
+        <div class="exp">
+          <h1>expr</h1>
+          <h4>I'm freshers</h4>
+        </div>
+        <div class="edu">
+          <h1>education</h1>
+          <h4>graduate in chemistry</h4>
+        </div>
+        <div class="pro">
+          <h1>project </h1>
+          <h4>some of the project i have done like ecom</h4>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
